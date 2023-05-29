@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.mother_div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 1024px;
+  width: 1440px; */
+
+}
+
+.main {
+  background: linear-gradient(180deg, #7756FF 0%, #312CEA 100%);
+  text-align: center;
+  width: 426px;
+  height: 572px;
+  border-radius: 30px;
+  z-index: 2;
+  /* position: absolute; */
+  /* right: 760px; */
+}
+
+.circle_div {
+  background: linear-gradient(180deg, #7756FF 0%, #312CEA 100%);
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100px;
+  margin-top: 50px;
+}
+
+.your_result {
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.percent {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  margin-top: 50px;
+}
+
+.percent_1,
+.your_result,
+.discrip {
+  color: rgb(192, 191, 255);
+}
+
+.great {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.discrip {
+  font-size: 18px;
+  width: 210px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+
+
+.main2 {
+  background-color: rgb(255, 255, 255);
+  width: 482px;
+  height: 572px;
+  border-radius: 30px;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.15);
+  margin-left: -70px;
+  z-index: 1;
+}
+
+.summary {
+  font-size: 25px;
+  color: #303b59;
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 130px;
+  margin-bottom: 50px;
+}
+
+.rectangle_div,
+.rectangle_div1,
+.rectangle_div2,
+.rectangle_div3 {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-left: 130px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rectangle_div {
+  background-color: rgb(255, 246, 245);
+}
+
+.rectangle_div1 {
+  background-color: rgb(255, 251, 242);
+}
+
+.rectangle_div2 {
+  background-color: rgb(242, 251, 250);
+}
+
+.rectangle_div3 {
+  background-color: rgb(243, 243, 253);
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  margin-left: 10px;
+}
+
+.reac,
+.memo,
+.ver,
+.vis {
+  margin-left: 10px;
+  margin-right: 125px;
+}
+
+.reac .reac {
+  color: rgb(207, 95, 96);
+}
+
+.memo {
+  color: rgb(237, 184, 75);
+}
+
+.ver {
+  color: rgb(60, 151, 129);
+}
+
+.vis {
+  color: rgb(45, 55, 148);
+}
+
+
+.Continue-button {
+  background-color: rgb(48, 59, 89);
+  color: white;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 140px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 130px;
+  cursor: pointer;
+}
+
+.jk {
+  width: 290px;
+  display: flex;
+  flex-direction: row;
+}
+
+.vis_num,
+.ver_num {
+  margin-left: 15px;
+}
+
+.per {
+  margin-right: 5px;
+  color: rgb(187, 187, 187);
+}
+
+@media screen and (max-width: 670px) {
+  .mother_div {
+    flex-direction: column;
+  }
+}
